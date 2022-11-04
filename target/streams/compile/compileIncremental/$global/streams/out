@@ -1,0 +1,49 @@
+[debug] [naha] 
+[debug] [naha] Initial source changes: 
+[debug] [naha] 	removed:Set(D:\T 2_3\T\src\main\scala\Reg.scala, D:\T 2_3\T\src\main\scala\Rv.scala)
+[debug] [naha] 	added: Set()
+[debug] [naha] 	modified: Set(D:\T 2_3\T\src\main\scala\Rev.scala)
+[debug] [naha] Invalidated products: Set()
+[debug] [naha] External API changes: API Changes: Set()
+[debug] [naha] Modified binary dependencies: Set()
+[debug] [naha] Initial directly invalidated sources: Set(D:\T 2_3\T\src\main\scala\Reg.scala, D:\T 2_3\T\src\main\scala\Rv.scala, D:\T 2_3\T\src\main\scala\Rev.scala)
+[debug] [naha] 
+[debug] [naha] Sources indirectly invalidated by:
+[debug] [naha] 	product: Set()
+[debug] [naha] 	binary dep: Set()
+[debug] [naha] 	external source: Set()
+[debug] All initially invalidated sources: Set(D:\T 2_3\T\src\main\scala\Reg.scala, D:\T 2_3\T\src\main\scala\Rv.scala, D:\T 2_3\T\src\main\scala\Rev.scala)
+[debug] [naha] Initial set of included nodes: Set(D:\T 2_3\T\src\main\scala\Reg.scala, D:\T 2_3\T\src\main\scala\Rv.scala, D:\T 2_3\T\src\main\scala\Rev.scala)
+[debug] [naha] Recompiling all 2 sources: invalidated sources (3) exceeded 50.0% of all sources
+[info] Compiling 2 Scala sources to D:\T 2_3\T\target\scala-2.13\classes...
+[debug] Getting org.scala-sbt:compiler-interface:0.13.18:component from component compiler for Scala 2.13.10
+[debug] Getting org.scala-sbt:compiler-interface:0.13.18:component from component compiler for Scala 2.13.10
+[debug] Running cached compiler 58509616, interfacing (CompilerInterface) with Scala compiler version 2.13.10
+[debug] Calling Scala compiler with arguments  (CompilerInterface):
+[debug] 	-bootclasspath
+[debug] 	C:\Users\seyl\.jdks\temurin-1.8.0_345\jre\lib\resources.jar;C:\Users\seyl\.jdks\temurin-1.8.0_345\jre\lib\rt.jar;C:\Users\seyl\.jdks\temurin-1.8.0_345\jre\lib\sunrsasign.jar;C:\Users\seyl\.jdks\temurin-1.8.0_345\jre\lib\jsse.jar;C:\Users\seyl\.jdks\temurin-1.8.0_345\jre\lib\jce.jar;C:\Users\seyl\.jdks\temurin-1.8.0_345\jre\lib\charsets.jar;C:\Users\seyl\.jdks\temurin-1.8.0_345\jre\lib\jfr.jar;C:\Users\seyl\.jdks\temurin-1.8.0_345\jre\classes;C:\Users\seyl\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.13.10.jar
+[debug] 	-classpath
+[debug] 	D:\T 2_3\T\target\scala-2.13\classes
+[warn] 1 deprecation (since 2.13.0); re-run with -deprecation for details
+[warn] one warning found
+[debug] Scala compilation took 0.5657455 s
+[debug] [naha] Invalidating D:\T 2_3\T\src\main\scala\Reg.scala...
+[debug] [naha] Invalidating (transitively) by inheritance from D:\T 2_3\T\src\main\scala\Reg.scala...
+[debug] [naha] Initial set of included nodes: Set(D:\T 2_3\T\src\main\scala\Reg.scala)
+[debug] [naha] Invalidated by transitive inheritance dependency: Set(D:\T 2_3\T\src\main\scala\Reg.scala)
+[debug] [naha] The D:\T 2_3\T\src\main\scala\Reg.scala source file has the following regular definitions changed:
+[debug] [naha] 	notify, wait, equals, asInstanceOf, synchronized, main, notifyAll, isInstanceOf, ==, clone, Reg, toString, !=, getClass, ne, eq, ##, finalize, hashCode.
+[debug] [naha] All member reference dependencies will be considered within this context.
+[debug] [naha] Invalidating D:\T 2_3\T\src\main\scala\Rv.scala...
+[debug] [naha] Invalidating (transitively) by inheritance from D:\T 2_3\T\src\main\scala\Rv.scala...
+[debug] [naha] Initial set of included nodes: Set(D:\T 2_3\T\src\main\scala\Rv.scala)
+[debug] [naha] Invalidated by transitive inheritance dependency: Set(D:\T 2_3\T\src\main\scala\Rv.scala)
+[debug] [naha] The D:\T 2_3\T\src\main\scala\Rv.scala source file has the following regular definitions changed:
+[debug] [naha] 	notify, wait, equals, asInstanceOf, Rv, synchronized, main, notifyAll, isInstanceOf, ==, clone, toString, !=, getClass, ne, eq, ##, finalize, hashCode.
+[debug] [naha] All member reference dependencies will be considered within this context.
+[debug] [naha] New invalidations:
+[debug] [naha] 	Set()
+[debug] [naha] Initial set of included nodes: Set()
+[debug] [naha] Previously invalidated, but (transitively) depend on new invalidations:
+[debug] [naha] 	Set()
+[debug] [naha] All newly invalidated sources after taking into account (previously) recompiled sources:Set()
